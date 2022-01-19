@@ -1,0 +1,27 @@
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+:root {
+  --black: #171321;
+  --dark: #2e3142;
+  --charcoal: #4f5e75;
+  --paleorange: #ef8354;
+  --magenta: #e310cb;
+  --grey: #bfc1c0;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: 'Oxygen mono', monospace;
+  --sans: Oxygen, sans-serif;
+}
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
