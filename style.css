@@ -4,7 +4,6 @@
   --dark: #2e3142;
   --charcoal: #4f5e75;
   --paleorange: #ef8354;
-  --magenta: #e310cb;
   --grey: #bfc1c0;
   --white: #f7f8fa;
   --font-size: 1.3rem;
@@ -25,4 +24,17 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: var(--paleorange);
 }
