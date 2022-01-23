@@ -4,6 +4,7 @@
   --dark: #2e3142;
   --charcoal: #4f5e75;
   --paleorange: #ef8354;
+  --paleorange2: #f5c4b0;
   --grey: #bfc1c0;
   --white: #f7f8fa;
   --font-size: 1.3rem;
@@ -37,4 +38,9 @@ h3 {
 
 a {
   color: var(--paleorange);
+}
+
+a:hover {
+  color: var(--paleorange2);
+  text-decoration: none;
 }
